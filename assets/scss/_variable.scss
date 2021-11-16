@@ -1,0 +1,91 @@
+$color_accent:#FFC900;
+$color_accent_hover:#FFD846;
+$color_primary:#093C50;
+$color_accent_primary:#135D7A;
+$section_color:#F2F2F2;
+$general_padding:0 5%!important;
+
+.site_padding {
+    padding: $general_padding;
+  }
+  .color-light{
+    color: white!important;
+  }
+  .color_dark{
+    color:black!important;
+  }
+.bg_accent{
+    background: $color_accent!important;
+}
+.bg_accent_hover{
+    background: $color_accent_hover!important;
+}
+.bg_primary{
+    background: $color_primary!important;
+}
+.bg_primary_hocer{
+    background: $color_accent_primary!important;
+}
+.fw-1{
+    font-weight: 100!important;
+}
+.fw-1_italic{
+    font-weight: 100!important;
+    font-style: italic;
+}
+.fw-2{
+    font-weight: 200!important;
+}
+.fw-2_italic{
+    font-weight: 200!important;
+    font-style: italic;
+}
+.fw-3{
+    font-weight: 300!important;
+}
+.fw-3_italic{
+    font-weight: 300!important;
+    font-style: italic;
+}
+.fw-4{
+    font-weight: 400!important;
+}
+.fw-4_italic{
+    font-weight: 400!important;
+    font-style: italic;
+}
+.fw-5{
+    font-weight: 500!important;
+}
+.fw-5_italic{
+    font-weight: 500!important;
+    font-style: italic;
+}
+.fw-6{
+    font-weight: 600!important;
+}
+.fw-6_italic{
+    font-weight: 600!important;
+    font-style: italic;
+}
+.fw-7{
+    font-weight: 700!important;
+}
+.fw-7_italic{
+    font-weight: 700!important;
+    font-style: italic;
+}
+.fw-8{
+    font-weight: 800!important;
+}
+.fw-8_italic{
+    font-weight: 800!important;
+    font-style: italic;
+}
+.fw-9{
+    font-weight: 900!important;
+}
+.fw-9_italic{
+    font-weight: 900!important;
+    font-style: italic;
+}
