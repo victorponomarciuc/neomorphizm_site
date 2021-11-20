@@ -46,7 +46,7 @@ body {
 }
 .description_products {
   padding-bottom: 0.25rem;
-  border-bottom: 2px solid $section_color;
+  border-bottom: 2px solid white;
   margin-bottom: 0.25rem;
   list-style: none;
 }
@@ -132,3 +132,32 @@ h1 {
   border: none!important;
   transition: 0.5s;
 }
+
+.price_service_box{
+  box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff!important;
+  padding: calc(20px + 0.5rem) 0.5rem 0.5rem 0.5rem;
+}
+
+// .promotion_section{
+//   max-width: 920px;
+//   margin: auto;
+//   min-height: 100px;
+//   transform: translate(0px,-50px);
+//   background: $section_color;
+//   display: flex;
+//   justify-content: space-between;
+//   flex-wrap: wrap;
+//   align-items: center;
+//   padding: 1rem;
+//   box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+//   -9px -9px 16px rgba(255, 255, 255, 0.5),
+//   inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #ffffff;
+//   .onsale{
+//     font-size: 48px;
+//     color: $color_primary;
+//   }
+//   .onsale_counter{
+//     font-size: 24px;
+//     color: $color_primary;
+//   }
+// }

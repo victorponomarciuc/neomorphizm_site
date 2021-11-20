@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.color_primary {
+  color: #093C50;
+}
+
 .site_padding {
   padding: 0 5% !important;
 }
@@ -1068,23 +1072,35 @@ body {
   text-align: left;
 }
 
+.shadow-soft {
+  -webkit-box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff !important;
+          box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff !important;
+}
+
 /* inset */
 .card.inset {
-  -webkit-box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
-          box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
+  -webkit-box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #ffffff;
+          box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #ffffff;
 }
 .card.inset i {
   text-shadow: 1px 1px 1px #d6e1ef99, 0 0 0 #000, 1px 1px 1px #d6e1ef00;
 }
 
+.card__icon {
+  -webkit-box-shadow: inset -10px -10px 10px #ffffff70, inset 10px 10px 10px #aeaec020;
+          box-shadow: inset -10px -10px 10px #ffffff70, inset 10px 10px 10px #aeaec020;
+  padding: 0.5rem;
+  margin-bottom: 16px;
+}
+
 .card.active {
-  -webkit-box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
-          box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
+  -webkit-box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #ffffff;
+          box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #ffffff;
 }
 
 .card.gray {
-  -webkit-box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
-          box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
+  -webkit-box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #ffffff;
+          box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #ffffff;
   background: -o-linear-gradient(131.68deg, rgba(163, 177, 198, 0.1) 0%, rgba(163, 177, 198, 0.1) 55%, rgba(163, 177, 198, 0.25) 100%);
   background: linear-gradient(318.32deg, rgba(163, 177, 198, 0.1) 0%, rgba(163, 177, 198, 0.1) 55%, rgba(163, 177, 198, 0.25) 100%);
 }
@@ -1211,6 +1227,37 @@ h2 a {
   color: #FFC900;
 }
 
+.portfolio_card .image-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  margin-bottom: 1em;
+}
+
+.portfolio_card .image-container::after {
+  display: none;
+}
+
+.portfolio_card .card:nth-of-type(1) .image-container {
+  background-image: url("https://images.pexels.com/photos/8658988/pexels-photo-8658988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.portfolio_card .card:nth-of-type(2) .image-container {
+  background-image: url("https://images.pexels.com/photos/10161241/pexels-photo-10161241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.portfolio_card .card:nth-of-type(3) .image-container {
+  background-image: url("https://images.pexels.com/photos/10210260/pexels-photo-10210260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.portfolio_card .card:nth-of-type(4) .image-container {
+  background-image: url("https://images.pexels.com/photos/6389534/pexels-photo-6389534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.portfolio_card .card:nth-of-type(5) .image-container {
+  background-image: url("https://images.pexels.com/photos/10206244/pexels-photo-10206244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
 body {
   margin: 0 !important;
   padding: 0 !important;
@@ -1278,7 +1325,7 @@ body {
 
 .description_products {
   padding-bottom: 0.25rem;
-  border-bottom: 2px solid #F2F2F2;
+  border-bottom: 2px solid white;
   margin-bottom: 0.25rem;
   list-style: none;
 }
@@ -1385,7 +1432,50 @@ h1 {
   transition: 0.5s;
 }
 
+.price_service_box {
+  -webkit-box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff !important;
+          box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff !important;
+  padding: calc(20px + 0.5rem) 0.5rem 0.5rem 0.5rem;
+}
+
 @media (min-width: 0px) {
+  .portfolio_card .card {
+    min-width: 100px;
+  }
+
+  .promotion_section {
+    max-width: 920px;
+    margin: auto;
+    min-height: 100px;
+    margin-bottom: 3rem;
+    background: #f2f2f2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1rem 5%;
+    -webkit-box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #ffffff;
+            box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5), inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #ffffff;
+  }
+  .promotion_section .onsale {
+    font-size: 48px;
+    color: #093c50;
+  }
+  .promotion_section .onsale_counter {
+    font-size: 24px;
+    color: #093c50;
+    margin: 1rem 0;
+  }
+
   .desktop_elements {
     display: none;
   }
@@ -1529,6 +1619,29 @@ h1 {
   }
 }
 
+@media (min-width: 392px) {
+  .promotion_section {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .promotion_section .onsale_counter {
+    margin: 1rem 0;
+  }
+  .promotion_section .button_box {
+    width: 100%;
+    margin-top: 1rem !important;
+  }
+  .promotion_section a {
+    margin: auto !important;
+  }
+}
+
 @media (min-width: 420px) {
   .header__button {
     width: 250px;
@@ -1569,6 +1682,48 @@ h1 {
   }
   .footer__button .btn i {
     font-size: 24px;
+  }
+}
+
+@media (min-width: 500px) {
+  .promotion_section {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .portfolio_card .card {
+    min-width: 350px;
+  }
+}
+
+@media (min-width: 720px) {
+  .promotion_section {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-transform: translate(0px, -50px);
+        -ms-transform: translate(0px, -50px);
+            transform: translate(0px, -50px);
+    margin-bottom: 0px;
+  }
+  .promotion_section .onsale_counter {
+    margin: 1rem 0;
+  }
+  .promotion_section .button_box {
+    width: unset;
+    margin-top: 0 !important;
+  }
+  .promotion_section a {
+    margin: unset !important;
   }
 }
 
@@ -1687,6 +1842,10 @@ h1 {
   .command_text p {
     -webkit-line-clamp: 10;
   }
+
+  .d_button {
+    margin: auto !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1707,6 +1866,10 @@ h1 {
   .command_text p {
     -webkit-line-clamp: 15;
   }
+
+  .d_button {
+    margin: unset !important;
+  }
 }
 
 @media (min-width: 1140px) {
@@ -1721,6 +1884,10 @@ h1 {
 
   .command_text p {
     -webkit-line-clamp: 20;
+  }
+
+  .portfolio_card .card {
+    min-width: 500px;
   }
 }
 

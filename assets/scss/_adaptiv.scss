@@ -1,4 +1,31 @@
 @media (min-width: 0px) {
+  .portfolio_card .card{
+    min-width: 100px;
+  }
+  .promotion_section {
+    max-width: 920px;
+    margin: auto;
+    min-height: 100px;
+    margin-bottom: 3rem;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 5%;
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+      -9px -9px 16px rgba(255, 255, 255, 0.5),
+      inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #ffffff;
+    .onsale {
+      font-size: 48px;
+      color: #093c50;
+    }
+    .onsale_counter {
+      font-size: 24px;
+      color: #093c50;
+      margin: 1rem 0;
+    }
+  }
   .desktop_elements {
     display: none;
   }
@@ -94,6 +121,24 @@
     font-size: 28px;
   }
 }
+@media (min-width: 392px) {
+  .promotion_section {
+    // transform: translate(0px,-50px);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    .onsale_counter {
+      margin: 1rem 0;
+    }
+    .button_box {
+      width: 100%;
+      margin-top: 1rem !important;
+    }
+    a {
+      margin: auto !important;
+    }
+  }
+}
 @media (min-width: 420px) {
   .header__button {
     width: 250px;
@@ -120,7 +165,34 @@
     }
   }
 }
-
+@media (min-width: 500px) {
+  .promotion_section {
+    justify-content: space-around;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .portfolio_card .card{
+    min-width: 350px;
+  }
+}
+@media (min-width: 720px) {
+  .promotion_section {
+    justify-content: space-between;
+    transform: translate(0px, -50px);
+    margin-bottom: 0px;
+    .onsale_counter {
+      margin: 1rem 0;
+    }
+    .button_box {
+      width: unset;
+      margin-top: 0 !important;
+    }
+    a {
+      margin: unset !important;
+    }
+  }
+}
 @media (min-width: 768px) {
   .desktop_elements {
     display: block;
@@ -193,6 +265,9 @@
       -webkit-line-clamp: 10;
     }
   }
+  .d_button {
+    margin: auto !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -212,6 +287,9 @@
       -webkit-line-clamp: 15;
     }
   }
+  .d_button {
+    margin: unset !important;
+  }
 }
 @media (min-width: 1140px) {
   .header_title {
@@ -225,5 +303,8 @@
     p {
       -webkit-line-clamp: 20;
     }
+  }
+  .portfolio_card .card{
+    min-width: 500px;
   }
 }

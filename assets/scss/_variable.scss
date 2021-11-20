@@ -5,6 +5,9 @@ $color_accent_primary:#135D7A;
 $section_color:#F2F2F2;
 $general_padding:0 5%!important;
 
+.color_primary{
+    color: $color_primary;
+}
 .site_padding {
     padding: $general_padding;
   }
