@@ -194,12 +194,6 @@
   }
 }
 @media (min-width: 768px) {
-  .desktop_elements {
-    display: block;
-  }
-  .mobile_conent {
-    display: none;
-  }
   .header_title,
   .header_desription {
     text-align: start;
@@ -271,6 +265,12 @@
 }
 
 @media (min-width: 992px) {
+  .desktop_elements {
+    display: block;
+  }
+  .mobile_conent {
+    display: none;
+  }
   .header_title {
     font-size: 48px;
   }
