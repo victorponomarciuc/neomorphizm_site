@@ -1167,7 +1167,7 @@ body {
 }
 
 .card:nth-of-type(1) .image-container {
-  background-image: url("https://images.pexels.com/photos/6454668/pexels-photo-6454668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("../images/otziv1.jpg");
 }
 
 .card:nth-of-type(2) .image-container {
@@ -1224,7 +1224,7 @@ h2 {
 }
 
 h2 a {
-  color: #FFC900;
+  color: #ffc900;
 }
 
 .portfolio_card .image-container {
@@ -1256,6 +1256,13 @@ h2 a {
 
 .portfolio_card .card:nth-of-type(5) .image-container {
   background-image: url("https://images.pexels.com/photos/10206244/pexels-photo-10206244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.carousel_card_text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 body {
